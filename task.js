@@ -206,17 +206,10 @@ printArray(array3);
 
 // Виконання завдань
 console.log("\n1) Кількість та сума парних елементів масиву 1:", evenCountAndSum(array1));
-
 console.log("2) Середнє арифметичне масиву 1 та кількість елементів більших за нього:", averageAndGreater(array1));
-
 console.log("3) Попарна сума масивів 1 і 2:", pairSumArrays(array1, array2));
-
 console.log("4) Конкатенація масивів 1 і 3:", concatArrays(array1, array3));
-
 console.log("5) Масив 1 після зміни місцями мінімуму та максимуму:", swapMinMax([...array1]));
-
 console.log("6) Окремі масиви з додатніх та від’ємних елементів масиву 1:", splitPositiveNegative(array1));
-
 console.log("7) Масив 1 без дублікатів мінімуму та максимуму:", removeDuplicatesMinMax(array1));
-
 console.log("8) Елементи масивів 1 і 2 між їхніми середніми арифметичними:", elementsBetweenAverages(array1, array2));
