@@ -7,7 +7,7 @@ function generateArray(length, min, max) {
     return arr;
 }
 
-// Генеруємо два масиви для прикладу
+// Генерація трьох масивів для прикладу
 let array1 = generateArray(20, -110, 110);               
 let array2 = generateArray(array1.length, -100, 100);   
 let array3 = generateArray(12, -100, 100);              
@@ -19,7 +19,7 @@ function printArray(arr) {
     });
 }
 
-// 1. Знаходження кількість і суми парних елементів масиву 1
+// 1. Знаходження кількості і суми парних елементів масиву 1
 function evenCountAndSum(arr) {
     let count = 0, sum = 0;
     arr.forEach(num => {
@@ -193,7 +193,6 @@ function elementsBetweenAverages(arr1, arr2) {
 
 
 // Виведення початкових масивів
-
 console.log("\nМасив 1:");
 printArray(array1);
 
